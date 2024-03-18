@@ -3,7 +3,7 @@ import NoImage from "../assets/no-projects.png";
 import Button from "./Button";
 
 
-function NoProject(){
+function NoProject({onStartAddProject}){
 
   return(
     <div className="mt-24 text-center w-2/3">
@@ -16,7 +16,7 @@ function NoProject(){
    
       <p className="text-stone-400 mb-4">선택하세요 </p>
       <p className="mt-8">
-        <Button>new project</Button>
+        <Button onClick={onStartAddProject}>new project</Button>
 
       </p>
 
