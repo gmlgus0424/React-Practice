@@ -24,4 +24,4 @@ function NoProject({onStartAddProject}){
   )
 }
 
-export default NoProject
+export default NoProject;
